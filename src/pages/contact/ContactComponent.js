@@ -51,7 +51,7 @@ function Contact(props) {
               <br />
               <br />
               <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
+                Qoute Us
               </a>
             </div>
           </div>

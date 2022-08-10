@@ -55,9 +55,9 @@ function Projects(props) {
       <a
         {...styles}
         className="general-btn"
-        href="https://github.com/harikanani"
+        href="https://www.fiverr.com/users/hamzazafar_rc/"
       >
-        More Projects (Github)
+        Qoute Us Now
       </a>
       <br />
       <br />
