@@ -33,6 +33,15 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a
+        href={socialMediaLinks.whatsapp}
+        className="icon-button instagram"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-whatsapp"></i>
+        <span></span>
+      </a>
+      {/* <a
         href={`mailto:${socialMediaLinks.gmail}`}
         className="icon-button google"
         target="_blank"
@@ -40,23 +49,14 @@ export default function socialMedia() {
       >
         <i className="fab fa-google"></i>
         <span></span>
-      </a>
+      </a> */}
       <a
-        href={socialMediaLinks.twitter}
+        href={socialMediaLinks.telegram}
         className="icon-button twitter"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-twitter"></i>
-        <span></span>
-      </a>
-      <a
-        href={socialMediaLinks.instagram}
-        className="icon-button instagram"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-instagram"></i>
+        <i className="fab fa-telegram"></i>
         <span></span>
       </a>
     </div>

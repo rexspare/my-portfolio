@@ -14,7 +14,7 @@ function ExperienceCard(props) {
     >
       <div className="experience-card-logo-div">
         <img
-          className="experience-card-logo"
+          className="experience-card-logo experience-card-logo-radius"
           src={require(`../../assests/images/${experience["logo_path"]}`)}
           alt=""
         />
@@ -53,12 +53,17 @@ function ExperienceCard(props) {
             </p>
           </div>
         </div>
-        <p
-          className="experience-card-description"
-          style={{ color: theme.text }}
-        >
-          {experience["description"]}
-        </p>
+        <ol>
+          {experience["description"].map((x) => (
+            <li
+              className="experience-card-description"
+              style={{ color: theme.text }}
+            >
+              {x}
+            </li>
+          ))}
+        </ol>
+        <div style={{ marginBottom: 15 }}></div>
       </div>
     </div>
   );
