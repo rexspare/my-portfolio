@@ -108,7 +108,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Experience | Team
+                Experience
               </NavLink>
             </li>
             <li>

@@ -10,8 +10,8 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Dev_Icons",
-  logo_name: "Dev_Icons.()",
+  title2: "Hamza",
+  logo_name: "Hamza </>",
   nickname: "Hamza Zafar",
   full_name: "Hamza Zafar",
   subTitle:
@@ -29,6 +29,8 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/harikrishan.kanani/",
   twitter: "https://twitter.com/rexspare",
   instagram: "https://www.instagram.com/i_rexspare/",
+  whatsapp: "https://wa.me/+923060275992",
+  telegram: "https://t.me/+9234974181412",
 };
 
 const skills = {
@@ -50,6 +52,13 @@ const skills = {
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#029FCE",
           },
         },
         {
@@ -130,24 +139,10 @@ const skills = {
           },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
           skillName: "iOS",
           fontAwesomeClassname: "simple-icons:ios",
           style: {
             color: "#29B0EE",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            color: "#029FCE",
           },
         },
         {
@@ -288,26 +283,24 @@ const degrees = {
       alt_name: "SSEC",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology.",
-        "⚡ I have studied core subjects like Data Structures, DBMS, Security, Software Engineering etc.",
-        "⚡ I have also completed various courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ My academic journey includes in-depth studies of core subjects like Data Structures, Database Management Systems (DBMS), Security, and Software Engineering.",
+        "⚡ Complementing this, I've successfully completed various courses focusing on Backend, Web, and Mobile App Development",
+        "⚡ Applying the knowledge gained from my Software Engineering course, I've successfully implemented several projects showcasing practical application of these concepts",
       ],
       website_link: "https://kfueit.edu.pk/",
     },
-    {
-      title: "Punjab Group of colleges",
-      subtitle: "FSC Pre-Engineering",
-      logo_path: "PGC.png",
-      alt_name: "SSGC",
-      duration: "2016 - 2018",
-      descriptions: [
-        "⚡ I have Participated in several Activities throughout this period",
-        "⚡ Passed out with First Division in the final Examinations",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-      ],
-      website_link: "https://pgc.edu",
-    },
+    // {
+    //   title: "Punjab Group of colleges",
+    //   subtitle: "FSC Pre-Engineering",
+    //   logo_path: "PGC.png",
+    //   alt_name: "SSGC",
+    //   duration: "2016 - 2018",
+    //   descriptions: [
+    //     "⚡ I have Participated in several Activities throughout this period",
+    //     "⚡ Passed out with First Division in the final Examinations",
+    //   ],
+    //   website_link: "https://pgc.edu",
+    // },
   ],
 };
 
@@ -403,57 +396,65 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Mobile Team Lead",
+          company: "Oracions.inc",
+          company_url: "https://oracions.com/",
+          logo_path: "oracions.jpg",
+          duration: "Feb 2023 - Present",
+          location: "Remote",
+          description: [
+            "Optimized the application's performance, resulting in an average load time of less than 3 second.",
+            `Collaborated with 2 cross-functional teams to develop and enhance mobile applications, ensuring on-time delivery for 15+ major updates.`,
+            "Actively contributed to team knowledge sharing sessions, presenting on advanced React Native techniques and contributing to internal coding standards.",
+            `Led a team of React Native developers in the migration of a legacy mobile application to React Native.`,
+          ],
+          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          color: "#0071C5",
+        },
+        {
           title: "Mobile Application Developer",
           company: "Teknovation.io",
           company_url: "https://teknovation.io/",
           logo_path: "tk.jpeg",
-          duration: "July 2022 - Present",
+          duration: "July 2022 - Feb 2023",
           location: "Remote",
-          description: `Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used MERN Stack.`,
+          description: [
+            `Spearheaded the migration of a legacy mobile app to React Native, resulting in a 30% reduction in app crashes and reduced launch time by 40%.`,
+            `Recognized for delivering high-quality code, reducing post-release bugs and enhancing user satisfaction.`,
+            `Received recognition from management for consistently delivering high-quality code and meeting project deadlines.`,
+          ],
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
-        {
-          title: "Mobile Development Instructor",
-          company: "IT Centre RYK",
-          company_url: "https://hwryk.com/",
-          logo_path: "ICR.png",
-          duration: "Feb 2022 - July 2022",
-          location: "Office",
-          description: `Train, manage and provide guidance to junior software development staff.
-        Provide Assistance to Students Persuing their Development Dreams`,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
+        // {
+        //   title: "Mobile Development Instructor",
+        //   company: "IT Centre RYK",
+        //   company_url: "https://hwryk.com/",
+        //   logo_path: "ICR.png",
+        //   duration: "Feb 2022 - July 2022",
+        //   location: "Office",
+        //   description: [
+        //     `Spearheaded the migration of a legacy mobile app to React Native, resulting in a 30% reduction in app crashes and reduced launch time by 40%.`,
+        //     `Recognized for delivering high-quality code, reducing post-release bugs and enhancing user satisfaction.`,
+        //     `Received recognition from management for consistently delivering high-quality code and meeting project deadlines.`
+        //   ],
+        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+        //   color: "#0071C5",
+        // },
         {
           title: "Mobile Application Developer",
           company: "Hello World Technologies",
           company_url: "https://hwryk.com/",
           logo_path: "HW.png",
-          duration: "Aug 2021 - July 2022",
+          duration: "Jan 2021 - July 2022",
           location: "Office",
-          description: `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack.`,
+          description: [
+            `Actively contributed to team knowledge sharing sessions, presenting on advanced React Native techniques and contributing to internal coding standards.`,
+            `Collaborated with cross-functional teams to develop and maintain high-quality mobile applications using React Native framework.`,
+            "Participated in code reviews and Exchange constructive feedback to team members, promoting code quality and best practices.",
+          ],
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#5a900f",
-        },
-        {
-          title: "Web Developer",
-          company: "Sidr Developers",
-          company_url: "",
-          logo_path: "Company.jpg",
-          duration: "Feb 2021 - May 2021",
-          location: "Remote",
-          description: `Worked as WordPress Web Developer, Build and Customized Various Websites for Restaurants
-           and E-Commerce Business`,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
         },
       ],
     },
@@ -467,8 +468,9 @@ const experience = {
           logo_path: "user.png",
           duration: "2018 - Present",
           location: "",
-          description:
+          description: [
             "Has been Working as a Native Android Developer for almost Three years and extending his skill set to React Native",
+          ],
           color: "#4285F4",
         },
         {
@@ -478,41 +480,9 @@ const experience = {
           logo_path: "user.png",
           duration: "2016 - Present",
           location: "",
-          description:
+          description: [
             "Vast Experience with CodeIgniter with both remote and Physical Clients. Completed Many Interprise Level Projects",
-          color: "#5a900f",
-        },
-        {
-          title: "Kashan Ahmad",
-          company: "React JS | HTML/CSS | GIT |JQuery",
-          company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
-          logo_path: "user.png",
-          duration: "2019 - Present",
-          location: "",
-          description:
-            "Talented Front-End Developer with strong Grip on styling and Custom CSS and Javascript.",
-          color: "#196acf",
-        },
-        {
-          title: "Mohsin Wajid",
-          company: "React Native",
-          company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
-          logo_path: "user.png",
-          duration: "2021 - Present",
-          location: "",
-          description:
-            "with Experience of Both Android and iOS Apps Mohsin has left his mark in every company he has been a part of",
-          color: "#040f26",
-        },
-        {
-          title: "Ahsan Ali Rehmani",
-          company: "pHp-Larvel",
-          company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
-          logo_path: "user.png",
-          duration: "2021 - Present",
-          location: "",
-          description:
-            "Our Laravel Expert has done many freelance projects with many satsfied Clients ",
+          ],
           color: "#5a900f",
         },
         {
@@ -522,30 +492,21 @@ const experience = {
           logo_path: "user.png",
           duration: "2021 - Present",
           location: "",
-          description:
+          description: [
             "With Straight forward Approach Samama is both talented and Hard Working. Worked on Many Business Level Apps",
+          ],
           color: "#D83B01",
         },
         {
-          title: "Yasir Naeem",
-          company: "DOTNET | React Native",
-          company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
-          logo_path: "user.png",
-          duration: "2018 - Present",
-          location: "",
-          description:
-            "Yasir has work with DOTNET for alomost three years and now moving towards Mobile Development Field",
-          color: "#040f26",
-        },
-        {
-          title: "Zeeshan Babar",
+          title: "Hammad Khan",
           company: "Graphic Design | UI/UX",
           company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
-          logo_path: "user.png",
+          logo_path: "hammad.png",
           duration: "2021 - Present",
           location: "",
-          description:
+          description: [
             "Very Talented Graphic Designer with bot Freelance and Office based jobs. Very Sincere with his work",
+          ],
           color: "#5a900f",
         },
       ],
@@ -564,7 +525,7 @@ const projectsHeader = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Us",
+    title: "Hire Me",
     profile_image_path: "Hamza.jpeg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
@@ -573,7 +534,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
-    link: "https://twitter.com/rexspare",
+    link: "https://www.linkedin.com/in/rexspare/",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -582,10 +543,11 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Reachii KDS POS",
-      url: "",
+      name: "GymsWorld",
+      url:
+        "https://play.google.com/store/apps/details?id=com.oracionsGymworkout",
       description:
-        "This is a complete Restaurant and Order Management System, which Includes, User App, Rider App, Admin App, POS, KDS, and Admin Panel.",
+        "The ultimate fitness app for gym enthusiasts! Join classes, track your progress, and connect with friends in a vibrant gym community.",
       languages: [
         {
           name: "React | React Native",
@@ -593,31 +555,139 @@ const projects = {
         },
         {
           name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          iconifyClass: "devicon:typescript",
         },
         {
-          name: "PHP",
-          iconifyClass: "logos-php",
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
         },
         {
           name: "HTML5",
           iconifyClass: "vscode-icons:file-type-html",
         },
+      ],
+    },
+    {
+      id: "5",
+      name: "FeedMile",
+      url: "https://play.google.com/store/apps/details?id=com.feedmile",
+      description:
+        "Feedmile App: Your go-to for 360-degree coverage of latest news, including headlines, detailed analysis, trendy topics, and market trends.",
+      languages: [
         {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+      ],
+    },
+    {
+      id: "20",
+      name: "Winelikes",
+      url: "https://apps.apple.com/us/app/winelikes/id1604508326",
+      description:
+        "An engaging wine app that will change the way you drink wine. Whether you are about to take your first sip, or on the road to becoming a sommelier, Winelikes is for you.",
+      languages: [
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos-stripe",
+        },
+      ],
+    },
+    {
+      id: "6",
+      name: "Nomadz",
+      url: "https://apps.apple.com/pk/app/nomadz/id6448633205",
+      description:
+        "Nomadz stands as the ultimate marketplace crafted by and for outdoor enthusiasts, delivering a comprehensive and user-friendly platform for nature lovers.",
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "React $ React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Node JS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "PlatsPay",
+          iconifyClass: "icon-park:flash-payment",
+        },
+      ],
+    },
+    {
+      id: "60",
+      name: "PETSBROZ",
+      url: "https://apps.apple.com/pk/app/petsbroz/id1668323327",
+      description:
+        "Nomadz stands as the ultimate marketplace crafted by and for outdoor enthusiasts, delivering a comprehensive and user-friendly platform for nature lovers.",
+      languages: [
+        {
+          name: "React $ React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Node JS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+        {
+          name: "Expo",
+          iconifyClass: "vscode-icons:file-type-light-expo",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos-stripe",
         },
       ],
     },
     {
       id: "1",
       name: "HEWN SF",
-      url: "",
+      url: "https://play.google.com/store/apps/details?id=com.hewnsfmobile",
       description:
-        "An E-commerce Application with a Facebook Inspired Community Section Where People can share their thoughts and Memories",
+        "HEWN's app started as a solution for fabric sample requests and now streamlines sourcing and collaboration in the interior design community.",
       languages: [
         {
-          name: "React | React Native",
+          name: "React & React Native",
           iconifyClass: "logos-react",
         },
         {
@@ -627,18 +697,74 @@ const projects = {
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-bootstrap",
+        },
+      ],
+    },
+
+    {
+      id: "4",
+      name: "ICR - IT Centre RYK",
+      url: "https://play.google.com/store/apps/details?id=com.itcentre",
+      description:
+        "ICR provides a cutting-edge learning environment, offering hands-on experience and skills development for success in the evolving IT industry.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "OneSignal",
+          iconifyClass: "logos-onesignal",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "Barcelona Guide",
+      url:
+        "https://play.google.com/store/apps/details?id=com.cityguide.barcelonacityguideapp",
+      description:
+        "Unlock Barcelona's treasures with our comprehensive travel guide app. Explore attractions, historic sights, and travel details seamlessly in one place.",
+      languages: [
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "PHP",
+          iconifyClass: "logos:php-alt",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
         },
       ],
     },
     {
       id: "2",
       name: "CRBO Inc.",
-      url: "",
+      url: "https://apps.apple.com/us/app/crbo/id1642157751",
       description:
         "A taxi App where people can rent thier cars with drivers for short and Long Trips. If Sign Up as a User, people can use this Uber like service",
       languages: [
         {
-          name: "React | React Native",
+          name: "React & React Native",
           iconifyClass: "logos-react",
         },
         {
@@ -646,199 +772,69 @@ const projects = {
           iconifyClass: "logos-firebase",
         },
         {
-          name: "TypeScript",
-          iconifyClass: "logos-typescript",
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos-stripe",
         },
       ],
     },
+
+    {
+      id: "3",
+      name: "Luxurian KW",
+      url: "https://apps.apple.com/pk/app/luxurian-kw/id6449488950",
+      description:
+        "Your Gateway to Luxury Bags and Accessories Step into a world of opulence with LUXURIAN, the premier app designed exclusively for those who appreciate luxury.",
+      languages: [
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Codeigniter",
+          iconifyClass: "logos:codeigniter-icon",
+        },
+        {
+          name: "PlatsPay",
+          iconifyClass: "icon-park:flash-payment",
+        },
+      ],
+    },
+
     {
       id: "3",
       name: "famHQ",
-      url: "",
+      url: "https://www.famhqconcierge.com/",
       description:
-        "A service Provider App Where people can become partners to provides services as well get services, people can interact forums (twitetr like feed), with Payment Integration for subscriptions",
+        "A service Provider App Where people can become partners to provides services as well get services, people can interact forums, with subscriptions",
       languages: [
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
         {
-          name: "React | React Native",
+          name: "React $ React Native",
           iconifyClass: "logos-react",
         },
         {
-          name: "PHP",
-          iconifyClass: "logos-php",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Tracking System",
-      url: "",
-      description:
-        "Federal Level tracking System for Police Developed in Native Android",
-      languages: [
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Native Android",
-          iconifyClass: "logos-android",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "ICR App (IT Centre RYK)",
-      url: "",
-      description:
-        "A application where students can apply for a course and jobs like LinkedIn and get Notifications of Upcoming Courses and Jobs",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "PHP",
-          iconifyClass: "logos-php",
-        },
-        {
-          name: "React | React Native",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Built and Customized Websites",
-      url: "",
-      description:
-        "Using WordPress Built and Customised Many Apps on different Levels",
-      languages: [
-        {
-          name: "WordPress",
-          iconifyClass: "logos-wordpress",
-        },
-        {
-          name: "PHP",
-          iconifyClass: "logos-php",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "FoodBee",
-      url: "",
-      description:
-        "A Food Delivery Systems Riders + Restaurants inspired By Uber Eats, Zomato and FoodPanda etc..",
-      languages: [
-        {
-          name: "React | React Native",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "PHP",
-          iconifyClass: "logos-php",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "Business Door",
-      url: "",
-      description:
-        "A Digital Mrketing App, Users can create their Visiting Cards by Providing their Details, a Door Card will be Generated with QR Code. Inpired by Blue.Social",
-      languages: [
-        {
-          name: "React | React Native",
-          iconifyClass: "logos-react",
+          name: "Node JS",
+          iconifyClass: "vscode-icons:file-type-node",
         },
         {
           name: "Firebase",
           iconifyClass: "logos-firebase",
         },
-        {
-          name: "TypeScript",
-          iconifyClass: "logos-typescript",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
       ],
     },
-    {
-      id: "7",
-      name: "Backend Services",
-      url: "",
-      description:
-        "Provided Back-end services to many clients in freelancing world",
-      languages: [
-        {
-          name: "pHp",
-          iconifyClass: "logos-php",
-        },
-        {
-          name: "Node JS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Tutor.me",
-      url: "",
-      description:
-        "A online Tutor service where students and parents can hire their desired instructor from all around the world",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "React JS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-    },
+
     {
       id: "9",
       name: "UI/UX",
-      url: "",
+      url:
+        "https://www.figma.com/file/IP2gHbDgBRQmmPv1VWeAMy/Untitled?type=design&node-id=0-1&mode=design&t=bLWnVz4xridqPx1O-0",
       description:
         "Designed Many UIs for Mobile as well as web Applications. Designed UX for Games and Flyers",
       languages: [
