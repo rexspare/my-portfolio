@@ -387,26 +387,25 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Team Experience",
-  description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+  subtitle: "",
+  description: `Seasoned React Native Developer with over 3 years of expertise in architecting and deploying mobile applications for both iOS and Android platforms, coupled with over 1 year of experience in developing Web Apps using React.js. Proficient in translating innovative concepts into advanced, user-centric applications. Adept in project management, delivery, and staying abreast of emerging technologies.`,
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Mobile Team Lead",
+          title: "Lead of Development Team",
           company: "Oracions.inc",
           company_url: "https://oracions.com/",
           logo_path: "oracions.jpg",
-          duration: "Feb 2023 - Present",
-          location: "Remote",
+          duration: "2023 - Present",
+          // location: "Remote",
           description: [
-            "Optimized the application's performance, resulting in an average load time of less than 3 second.",
-            `Collaborated with 2 cross-functional teams to develop and enhance mobile applications, ensuring on-time delivery for 15+ major updates.`,
-            "Actively contributed to team knowledge sharing sessions, presenting on advanced React Native techniques and contributing to internal coding standards.",
-            `Led a team of React Native developers in the migration of a legacy mobile application to React Native.`,
+            `Led a team of 12 software engineers in the successful development and delivery of 5 project on time and within budget.`,
+            `Improved application performance by 50%, reducing load time to under 2 seconds, enhancing user experience and driving engagement.`,
+            `Successfully migrated several React Native applications from version 0.59 to 0.73, resolving all breaking changes and ensuring smooth functionality.`,
+            `Spearheaded the development process by prioritizing tasks, delegating based on team strengths, and ensuring timely project completion.`,
           ],
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#0071C5",
@@ -416,12 +415,12 @@ const experience = {
           company: "Teknovation.io",
           company_url: "https://teknovation.io/",
           logo_path: "tk.jpeg",
-          duration: "July 2022 - Feb 2023",
-          location: "Remote",
+          duration: "2022 - 2023",
+          // location: "Remote",
           description: [
-            `Spearheaded the migration of a legacy mobile app to React Native, resulting in a 30% reduction in app crashes and reduced launch time by 40%.`,
-            `Recognized for delivering high-quality code, reducing post-release bugs and enhancing user satisfaction.`,
-            `Received recognition from management for consistently delivering high-quality code and meeting project deadlines.`,
+            `Championed Agile/Scrum methodology by actively participating in sprints. This fostered clear communication, streamlined task management, and resulted in continuous team improvement.`,
+            `Leveraged state management libraries (Redux, Zustand) to efficiently manage application state in React Native projects. This enabled development of complex application logic with improved performance.`,
+            `Implemented unit testing with Jest to guarantee code quality and stability. This facilitated efficient debugging throughout the development lifecycle.`,
           ],
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
@@ -446,12 +445,12 @@ const experience = {
           company: "Hello World Technologies",
           company_url: "https://hwryk.com/",
           logo_path: "HW.png",
-          duration: "Jan 2021 - July 2022",
-          location: "Office",
+          duration: "2021 - 2022",
+          location: "",
           description: [
-            `Actively contributed to team knowledge sharing sessions, presenting on advanced React Native techniques and contributing to internal coding standards.`,
-            `Collaborated with cross-functional teams to develop and maintain high-quality mobile applications using React Native framework.`,
-            "Participated in code reviews and Exchange constructive feedback to team members, promoting code quality and best practices.",
+            `Delivered a 98% positive user experience rating across iOS and Android by meticulously translating UI designs into pixel-perfect, user-friendly mobile applications`,
+            `Collaborated with cross-functional teams, including designers and product managers, to align development goals with business objectives, fostering a productive work environment.`,
+            `Engineered robust and maintainable React Native codebases, adhering to industry best practices, fostering code transparency, seamless collaboration, and streamlined maintenance efforts.`,
           ],
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#5a900f",
@@ -542,86 +541,6 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      id: "0",
-      name: "GymsWorld",
-      url:
-        "https://play.google.com/store/apps/details?id=com.oracionsGymworkout",
-      description:
-        "The ultimate fitness app for gym enthusiasts! Join classes, track your progress, and connect with friends in a vibrant gym community.",
-      languages: [
-        {
-          name: "React | React Native",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "devicon:typescript",
-        },
-        {
-          name: "Laravel",
-          iconifyClass: "logos-laravel",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "FeedMile",
-      url: "https://play.google.com/store/apps/details?id=com.feedmile",
-      description:
-        "Feedmile App: Your go-to for 360-degree coverage of latest news, including headlines, detailed analysis, trendy topics, and market trends.",
-      languages: [
-        {
-          name: "React & React Native",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "Laravel",
-          iconifyClass: "logos-laravel",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "vscode-icons:file-type-mongo",
-        },
-      ],
-    },
-    {
-      id: "20",
-      name: "Winelikes",
-      url: "https://apps.apple.com/us/app/winelikes/id1604508326",
-      description:
-        "An engaging wine app that will change the way you drink wine. Whether you are about to take your first sip, or on the road to becoming a sommelier, Winelikes is for you.",
-      languages: [
-        {
-          name: "React & React Native",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Laravel",
-          iconifyClass: "logos-laravel",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "devicon:typescript",
-        },
-        {
-          name: "Stripe",
-          iconifyClass: "logos-stripe",
-        },
-      ],
-    },
-    {
       id: "6",
       name: "Nomadz",
       url: "https://apps.apple.com/pk/app/nomadz/id6448633205",
@@ -680,6 +599,211 @@ const projects = {
       ],
     },
     {
+      id: "60x60",
+      name: "Flixoda",
+      url: "https://apps.apple.com/pk/app/flixoda/id1667942333",
+      description:
+        "Your go-to for endless entertainment. Stream TV shows, movies, dramas, and podcasts anytime, anywhere. Recommendations, offline downloads.",
+      languages: [
+        {
+          name: "React | React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+      ],
+    },
+
+    {
+      id: "0",
+      name: "GymsWorld",
+      url:
+        "https://play.google.com/store/apps/details?id=com.oracionsGymworkout",
+      description:
+        "The ultimate fitness app for gym enthusiasts! Join classes, track your progress, and connect with friends in a vibrant gym community.",
+      languages: [
+        {
+          name: "React | React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+      ],
+    },
+    {
+      id: "23X1",
+      name: "TAS Dating",
+      url: "https://play.google.com/store/apps/details?id=com.tasdatingkit",
+      description:
+        "Whether you're seeking a casual fling or a long-term commitment, TAS Dating caters to all relationship types. Simply create a profile and let our system do the rest.",
+      languages: [
+        {
+          name: "React | React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-webrtc",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
+      id: "20x20",
+      name: "Mangia Rewards | Dining Offers",
+      url:
+        "https://apps.apple.com/us/app/mangia-rewards-dining-offers/id1659785521",
+      description: `
+        Introducing Mangia Rewards: Explore local restaurants and get a free drink, appetizer, or dessert with every entree purchase, 7 days a week.`,
+      languages: [
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "devicon:javascript",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos-stripe",
+        },
+      ],
+    },
+    {
+      id: "20",
+      name: "Winelikes",
+      url: "https://apps.apple.com/us/app/winelikes/id1604508326",
+      description:
+        "An engaging wine app that will change the way you drink wine. Whether you are about to take your first sip, or on the road to becoming a sommelier, Winelikes is for you.",
+      languages: [
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos-stripe",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "FeedMile",
+      url: "https://play.google.com/store/apps/details?id=com.feedmile",
+      description:
+        "Feedmile App: Your go-to for 360-degree coverage of latest news, including headlines, detailed analysis, trendy topics, and market trends.",
+      languages: [
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+      ],
+    },
+
+    {
+      id: "10x10",
+      name: "ihost: tips for Airbnb host",
+      url:
+        "https://play.google.com/store/apps/details?id=com.keystolive.airbnbguide",
+      description:
+        "Empowering entrepreneurs to earn from their spaces. Learn how to rent out your home, apartment, or unused space with ease.",
+      languages: [
+        {
+          name: "React | React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos-stripe",
+        },
+      ],
+    },
+    {
+      id: "0x0",
+      name: "Meet Match",
+      url: "https://play.google.com/store/apps/details?id=com.meetmatch",
+      description:
+        "Your go-to app for finding serious partners nearby. Discover nearby matches, chat seamlessly, access public info, and browse gallery pics.",
+      languages: [
+        {
+          name: "React | React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos-stripe",
+        },
+      ],
+    },
+    {
       id: "1",
       name: "HEWN SF",
       url: "https://play.google.com/store/apps/details?id=com.hewnsfmobile",
@@ -706,6 +830,32 @@ const projects = {
     },
 
     {
+      id: "41x21",
+      name: "Online Seven Mall",
+      url:
+        "https://play.google.com/store/apps/details?id=com.fajira.OnlineSevenMall",
+      description:
+        "Online Seven Mall is a web based shopping framework which makes your shopping simpler, faster and more advantageous than any other time.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "OneSignal",
+          iconifyClass: "logos-onesignal",
+        },
+      ],
+    },
+    {
       id: "4",
       name: "ICR - IT Centre RYK",
       url: "https://play.google.com/store/apps/details?id=com.itcentre",
@@ -727,6 +877,32 @@ const projects = {
         {
           name: "OneSignal",
           iconifyClass: "logos-onesignal",
+        },
+      ],
+    },
+    {
+      id: "4x4",
+      name: "My Pill and Med Reminder",
+      url:
+        "https://play.google.com/store/apps/details?id=com.mdr.medicine_reminder",
+      description: `
+        Introducing Medicine Reminder: Never miss a dose. This app ensures you take your meds on time, every time.`,
+      languages: [
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "PHP",
+          iconifyClass: "logos:php-alt",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
         },
       ],
     },
@@ -783,6 +959,28 @@ const projects = {
     },
 
     {
+      id: "4x4",
+      name: "Quran Urdu Audio Translation",
+      url:
+        "https://play.google.com/store/apps/details?id=com.quran_only_urdu_audio",
+      description:
+        "Your Gateway to Luxury Bags and Accessories Step into a world of opulence with LUXURIAN, the premier app designed exclusively for those who appreciate luxury.",
+      languages: [
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Codeigniter",
+          iconifyClass: "logos:codeigniter-icon",
+        },
+        {
+          name: "Audio Play",
+          iconifyClass: "icon-park:audio-file",
+        },
+      ],
+    },
+    {
       id: "3",
       name: "Luxurian KW",
       url: "https://apps.apple.com/pk/app/luxurian-kw/id6449488950",
@@ -804,6 +1002,28 @@ const projects = {
       ],
     },
 
+    {
+      id: "3x3",
+      name: "Pehchaan Balochistan App",
+      url:
+        "https://play.google.com/store/apps/details?id=org.psca.pehchaanbalochistan",
+      description:
+        "A service Provider App Where people can become partners to provides services as well get services, people can interact forums, with subscriptions",
+      languages: [
+        {
+          name: "Android",
+          iconifyClass: "logos-android-icon",
+        },
+        {
+          name: "Java",
+          iconifyClass: "logos-java",
+        },
+        {
+          name: "OneSignal",
+          iconifyClass: "logos-onesignal",
+        },
+      ],
+    },
     {
       id: "3",
       name: "famHQ",
