@@ -457,59 +457,59 @@ const experience = {
         },
       ],
     },
-    {
-      title: "My Team",
-      experiences: [
-        {
-          title: "Moeed Farooq",
-          company: "Android | React Native",
-          company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
-          logo_path: "user.png",
-          duration: "2018 - Present",
-          location: "",
-          description: [
-            "Has been Working as a Native Android Developer for almost Three years and extending his skill set to React Native",
-          ],
-          color: "#4285F4",
-        },
-        {
-          title: "Umair Hanif",
-          company: "pHp-CodeIgniter | MongoDB | WordPress",
-          company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
-          logo_path: "user.png",
-          duration: "2016 - Present",
-          location: "",
-          description: [
-            "Vast Experience with CodeIgniter with both remote and Physical Clients. Completed Many Interprise Level Projects",
-          ],
-          color: "#5a900f",
-        },
-        {
-          title: "Samama Zargham",
-          company: "React Native | QA",
-          company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
-          logo_path: "user.png",
-          duration: "2021 - Present",
-          location: "",
-          description: [
-            "With Straight forward Approach Samama is both talented and Hard Working. Worked on Many Business Level Apps",
-          ],
-          color: "#D83B01",
-        },
-        {
-          title: "Hammad Khan",
-          company: "Graphic Design | UI/UX",
-          company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
-          logo_path: "hammad.png",
-          duration: "2021 - Present",
-          location: "",
-          description: [
-            "Very Talented Graphic Designer with bot Freelance and Office based jobs. Very Sincere with his work",
-          ],
-          color: "#5a900f",
-        },
-      ],
-    },
+    // {
+    //   title: "My Team",
+    //   experiences: [
+    //     {
+    //       title: "Moeed Farooq",
+    //       company: "Android | React Native",
+    //       company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
+    //       logo_path: "user.png",
+    //       duration: "2018 - Present",
+    //       location: "",
+    //       description: [
+    //         "Has been Working as a Native Android Developer for almost Three years and extending his skill set to React Native",
+    //       ],
+    //       color: "#4285F4",
+    //     },
+    //     {
+    //       title: "Umair Hanif",
+    //       company: "pHp-CodeIgniter | MongoDB | WordPress",
+    //       company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
+    //       logo_path: "user.png",
+    //       duration: "2016 - Present",
+    //       location: "",
+    //       description: [
+    //         "Vast Experience with CodeIgniter with both remote and Physical Clients. Completed Many Interprise Level Projects",
+    //       ],
+    //       color: "#5a900f",
+    //     },
+    //     {
+    //       title: "Samama Zargham",
+    //       company: "React Native | QA",
+    //       company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
+    //       logo_path: "user.png",
+    //       duration: "2021 - Present",
+    //       location: "",
+    //       description: [
+    //         "With Straight forward Approach Samama is both talented and Hard Working. Worked on Many Business Level Apps",
+    //       ],
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "Hammad Khan",
+    //       company: "Graphic Design | UI/UX",
+    //       company_url: "https://www.fiverr.com/users/hamzazafar_rc/",
+    //       logo_path: "hammad.png",
+    //       duration: "2021 - Present",
+    //       location: "",
+    //       description: [
+    //         "Very Talented Graphic Designer with bot Freelance and Office based jobs. Very Sincere with his work",
+    //       ],
+    //       color: "#5a900f",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -981,6 +981,28 @@ const projects = {
       ],
     },
     {
+      id: "3x3",
+      name: "Daily Dose of Wisdom",
+      url:
+        "https://play.google.com/store/apps/details?id=com.oracionsHorizons&hl=en&gl=US",
+      description:
+        "Get inspired every day by thoughtful wisdom, exciting stories, fascinating personalities or the latest scientific findings. Free of charge!",
+      languages: [
+        {
+          name: "React & React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Codeigniter",
+          iconifyClass: "logos:codeigniter-icon",
+        },
+        {
+          name: "PlatsPay",
+          iconifyClass: "icon-park:flash-payment",
+        },
+      ],
+    },
+    {
       id: "3",
       name: "Luxurian KW",
       url: "https://apps.apple.com/pk/app/luxurian-kw/id6449488950",
@@ -996,8 +1018,8 @@ const projects = {
           iconifyClass: "logos:codeigniter-icon",
         },
         {
-          name: "PlatsPay",
-          iconifyClass: "icon-park:flash-payment",
+          name: "OneSignal",
+          iconifyClass: "logos-onesignal",
         },
       ],
     },
@@ -1054,7 +1076,7 @@ const projects = {
       id: "9",
       name: "UI/UX",
       url:
-        "https://www.figma.com/file/IP2gHbDgBRQmmPv1VWeAMy/Untitled?type=design&node-id=0-1&mode=design&t=bLWnVz4xridqPx1O-0",
+        "https://drive.google.com/file/d/1pOwqpavYMIDjDkzOk9duDX1EBtY-VO-L/view?usp=sharing",
       description:
         "Designed Many UIs for Mobile as well as web Applications. Designed UX for Games and Flyers",
       languages: [
@@ -1066,7 +1088,6 @@ const projects = {
     },
   ],
 };
-
 export {
   settings,
   greeting,
