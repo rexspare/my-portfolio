@@ -57,7 +57,7 @@ function Projects(props) {
         className="general-btn"
         href="https://www.fiverr.com/users/hamzazafar_rc/"
       >
-        Qoute Us Now
+        Qoute Me Now
       </a>
       <br />
       <br />

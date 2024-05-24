@@ -61,18 +61,32 @@ const skills = {
             color: "#029FCE",
           },
         },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
+        // {
+        //   skillName: "PHP",
+        //   fontAwesomeClassname: "simple-icons:php",
+        //   style: {
+        //     color: "#7377AD",
+        //   },
+        // },
         {
           skillName: "React Native",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#02569B",
+          },
+        },
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
+          style: {
+            color: "#3DDC84",
+          },
+        },
+        {
+          skillName: "iOS",
+          fontAwesomeClassname: "simple-icons:ios",
+          style: {
+            color: "#29B0EE",
           },
         },
         {
@@ -98,7 +112,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "devicon:nodejs",
           style: {
             color: "#339933",
           },
@@ -111,10 +125,10 @@ const skills = {
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Express js",
+          fontAwesomeClassname: "skill-icons:expressjs-dark",
           style: {
-            color: "#651fff",
+            color: "#439743",
           },
         },
         {
@@ -125,26 +139,20 @@ const skills = {
           },
         },
         {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#651fff",
+          },
+        },
+        {
           skillName: "GraphQL",
           fontAwesomeClassname: "simple-icons:graphql",
           style: {
             color: "#DE33A6",
           },
         },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "iOS",
-          fontAwesomeClassname: "simple-icons:ios",
-          style: {
-            color: "#29B0EE",
-          },
-        },
+
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -166,13 +174,13 @@ const skills = {
             color: "#207297",
           },
         },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
-        },
+        // {
+        //   skillName: "Apache",
+        //   fontAwesomeClassname: "simple-icons:apache",
+        //   style: {
+        //     color: "#CA1A22",
+        //   },
+        // },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -213,10 +221,24 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
           },
         },
         {
@@ -233,13 +255,7 @@ const skills = {
             color: "#6863A6",
           },
         },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
+
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
@@ -247,20 +263,14 @@ const skills = {
             color: "#336791",
           },
         },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
+
+        // {
+        //   skillName: "Docker",
+        //   fontAwesomeClassname: "simple-icons:docker",
+        //   style: {
+        //     color: "#1488C6",
+        //   },
+        // },
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:githubactions",
