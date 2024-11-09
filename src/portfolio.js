@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
@@ -412,10 +412,10 @@ const experience = {
           duration: "2023 - Present",
           // location: "Remote",
           description: [
-            `Led a team of 12 software engineers in the successful development and delivery of 5 project on time and within budget.`,
+            `Led a team of 8 software engineers in the successful development and delivery of more than 10 projects on time and within budget ensuring client satisfaction.`,
             `Improved application performance by 50%, reducing load time to under 2 seconds, enhancing user experience and driving engagement.`,
             `Successfully migrated several React Native applications from version 0.59 to 0.73, resolving all breaking changes and ensuring smooth functionality.`,
-            `Spearheaded the development process by prioritizing tasks, delegating based on team strengths, and ensuring timely project completion.`,
+            `Spearheaded the development process by prioritising tasks, delegating based on team strengths, and implementing efficient workflows, resulting in a 30% improvement in project completion time and an increase in team productivity.`,
           ],
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#0071C5",
@@ -428,9 +428,9 @@ const experience = {
           duration: "2022 - 2023",
           // location: "Remote",
           description: [
-            `Championed Agile/Scrum methodology by actively participating in sprints. This fostered clear communication, streamlined task management, and resulted in continuous team improvement.`,
-            `Leveraged state management libraries (Redux, Zustand) to efficiently manage application state in React Native projects. This enabled development of complex application logic with improved performance.`,
-            `Implemented unit testing with Jest to guarantee code quality and stability. This facilitated efficient debugging throughout the development lifecycle.`,
+            `Maintained React Native applications, resulting in a 25% reduction in app crash rates and a 15% improvement in app stability and performance.`,
+            `Leveraged state management libraries such as Redux and Zustand to efficiently manage application state in React Native projects, resulting in a 10% to 15% improvement in application performance and a reduction in state management related bugs, facilitating the development of complex application logic.`,
+            `Implemented unit testing with Jest, achieving 85% code coverage, to ensure code quality and stability. This facilitated efficient debugging throughout the development lifecycle.`,
           ],
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
@@ -458,9 +458,9 @@ const experience = {
           duration: "2021 - 2022",
           location: "",
           description: [
-            `Delivered a 98% positive user experience rating across iOS and Android by meticulously translating UI designs into pixel-perfect, user-friendly mobile applications`,
-            `Collaborated with cross-functional teams, including designers and product managers, to align development goals with business objectives, fostering a productive work environment.`,
-            `Engineered robust and maintainable React Native codebases, adhering to industry best practices, fostering code transparency, seamless collaboration, and streamlined maintenance efforts.`,
+            `Delivered a 98% positive user experience rating across iOS and Android by meticulously translating UI designs into pixel- perfect, user-friendly mobile applications.`,
+            `Collaborated with cross-functional teams, including designers and product managers, to align development goals with business objectives, resulting in a 20% increase in project efficiency and a 15% reduction in development time, fostering a productive work environment.`,
+            `Developed a dynamic Instagram like feed with post promotion and integrated a messenger like chat box, allowing users to share wine experiences, interact, and enhance engagement within the app.`,
           ],
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#5a900f",
