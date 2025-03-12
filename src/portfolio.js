@@ -405,11 +405,26 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Lead of Development Team",
-          company: "Oracions.inc",
+          title: "Mobile App Developer",
+          company: "SitePod",
+          company_url: "https://sitepod.com/",
+          logo_path: "sitepod.png",
+          duration: "2024 - Present",
+          // location: "Remote",
+          description: [
+            `Revamped the entire app UI in under a week, enhancing aesthetics and user experience while maintaining performance and consistency.`,
+            `Implemented deep linking and enhanced push notification handling, increasing user engagement by 25% through seamless in-app navigation.`,
+            `Optimised app performance by fixing critical bugs and resolving major inefficiencies, ensuring smooth functionality while continuously adding new features.`,
+          ],
+          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          color: "#008ed3",
+        },
+        {
+          title: "Lead Mobile App Developer",
+          company: "Oracions",
           company_url: "https://oracions.com/",
           logo_path: "oracions.jpg",
-          duration: "2023 - Present",
+          duration: "2023 - 2024",
           // location: "Remote",
           description: [
             `Led a team of 8 software engineers in the successful development and delivery of more than 10 projects on time and within budget ensuring client satisfaction.`,
@@ -418,10 +433,10 @@ const experience = {
             `Spearheaded the development process by prioritising tasks, delegating based on team strengths, and implementing efficient workflows, resulting in a 30% improvement in project completion time and an increase in team productivity.`,
           ],
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#0071C5",
+          color: "#4ed1c2",
         },
         {
-          title: "Mobile Application Developer",
+          title: "Mobile App Developer",
           company: "Teknovation.io",
           company_url: "https://teknovation.io/",
           logo_path: "tk.jpeg",
@@ -429,41 +444,26 @@ const experience = {
           // location: "Remote",
           description: [
             `Maintained React Native applications, resulting in a 25% reduction in app crash rates and a 15% improvement in app stability and performance.`,
-            `Leveraged state management libraries such as Redux and Zustand to efficiently manage application state in React Native projects, resulting in a 10% to 15% improvement in application performance and a reduction in state management related bugs, facilitating the development of complex application logic.`,
+            `Leveraged state management libraries such as Redux and Zustand to efficiently manage application state in React Native projects, resulting in a 10% to 15% improvement in application performance and a reduction in state management-related bugs, facilitating the development of complex application logic.`,
             `Implemented unit testing with Jest, achieving 85% code coverage, to ensure code quality and stability. This facilitated efficient debugging throughout the development lifecycle.`,
           ],
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
+          color: "#efaa1e",
         },
-        // {
-        //   title: "Mobile Development Instructor",
-        //   company: "IT Centre RYK",
-        //   company_url: "https://hwryk.com/",
-        //   logo_path: "ICR.png",
-        //   duration: "Feb 2022 - July 2022",
-        //   location: "Office",
-        //   description: [
-        //     `Spearheaded the migration of a legacy mobile app to React Native, resulting in a 30% reduction in app crashes and reduced launch time by 40%.`,
-        //     `Recognized for delivering high-quality code, reducing post-release bugs and enhancing user satisfaction.`,
-        //     `Received recognition from management for consistently delivering high-quality code and meeting project deadlines.`
-        //   ],
-        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-        //   color: "#0071C5",
-        // },
         {
-          title: "Mobile Application Developer",
+          title: "React Native Developer",
           company: "Hello World Technologies",
           company_url: "https://hwryk.com/",
           logo_path: "HW.png",
-          duration: "2021 - 2022",
+          duration: "2020 - 2022",
           location: "",
           description: [
-            `Delivered a 98% positive user experience rating across iOS and Android by meticulously translating UI designs into pixel- perfect, user-friendly mobile applications.`,
+            `Delivered a 98% positive user experience rating across iOS and Android by meticulously translating UI designs into pixel-perfect, user-friendly mobile applications.`,
             `Collaborated with cross-functional teams, including designers and product managers, to align development goals with business objectives, resulting in a 20% increase in project efficiency and a 15% reduction in development time, fostering a productive work environment.`,
-            `Developed a dynamic Instagram like feed with post promotion and integrated a messenger like chat box, allowing users to share wine experiences, interact, and enhance engagement within the app.`,
+            `Engineered robust and maintainable React Native codebases, adhering to industry best practices, which improved code transparency and reduced maintenance efforts by 20%.`,
           ],
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#5a900f",
+          color: "#a9d7f1",
         },
       ],
     },
@@ -535,7 +535,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Hire Me",
-    profile_image_path: "Hamza.jpeg",
+    profile_image_path: "HamzaEnhanced.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -555,7 +555,7 @@ const projects = {
       name: "Nomadz",
       url: "https://apps.apple.com/pk/app/nomadz/id6448633205",
       description:
-        "Nomadz stands as the ultimate marketplace crafted by and for outdoor enthusiasts, delivering a comprehensive and user-friendly platform for nature lovers.",
+        "Nomadz stands as the ultimate marketplace crafted by and for outdoor enthusiasts, delivering a user-friendly platform for nature lovers.",
       languages: [
         {
           name: "TypeScript",
@@ -576,6 +576,56 @@ const projects = {
         {
           name: "PlatsPay",
           iconifyClass: "icon-park:flash-payment",
+        },
+      ],
+    },
+    {
+      id: "6123",
+      name: "Aheev Performance",
+      url: "https://apps.apple.com/us/app/acheev-performance-app/id1636595346",
+      description:
+        "Acheev empowers athletes with cutting-edge performance tracking and personalized training insights, optimizing their journey to peak fitness.",
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "React $ React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Node JS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "PostgreSQL",
+          iconifyClass: "logos:postgresql",
+        },
+      ],
+    },
+    {
+      id: "612312",
+      name: "Grade Wallet",
+      url: "https://play.google.com/store/apps/details?id=com.gradewallet",
+      description:
+        "Grade Wallet provides a secure and intuitive platform for managing and storing cryptocurrencies with ease and confidence.",
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "devicon:typescript",
+        },
+        {
+          name: "React $ React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "php",
+          iconifyClass: "logos:php",
         },
       ],
     },
@@ -629,7 +679,6 @@ const projects = {
         },
       ],
     },
-
     {
       id: "0",
       name: "GymsWorld",
