@@ -15,7 +15,7 @@ const greeting = {
   nickname: "Hamza Zafar",
   full_name: "Hamza Zafar",
   subTitle:
-    "Full Stack Development, Open Source Enthusiast 🔥. Always learning.",
+    "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink: "https://www.fiverr.com/users/hamzazafar_rc/",
   mail: "mailto:hamzazafarrc@gmail.com",
 };
@@ -550,35 +550,35 @@ const contactPageData = {
 
 const projects = {
   data: [
-    {
-      id: "6",
-      name: "Nomadz",
-      url: "https://apps.apple.com/pk/app/nomadz/id6448633205",
-      description:
-        "Nomadz stands as the ultimate marketplace crafted by and for outdoor enthusiasts, delivering a user-friendly platform for nature lovers.",
-      languages: [
-        {
-          name: "TypeScript",
-          iconifyClass: "devicon:typescript",
-        },
-        {
-          name: "React $ React Native",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Node JS",
-          iconifyClass: "vscode-icons:file-type-node",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "PlatsPay",
-          iconifyClass: "icon-park:flash-payment",
-        },
-      ],
-    },
+    // {
+    //   id: "6",
+    //   name: "Nomadz",
+    //   url: "https://apps.apple.com/pk/app/nomadz/id6448633205",
+    //   description:
+    //     "Nomadz stands as the ultimate marketplace crafted by and for outdoor enthusiasts, delivering a user-friendly platform for nature lovers.",
+    //   languages: [
+    //     {
+    //       name: "TypeScript",
+    //       iconifyClass: "devicon:typescript",
+    //     },
+    //     {
+    //       name: "React $ React Native",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "Node JS",
+    //       iconifyClass: "vscode-icons:file-type-node",
+    //     },
+    //     {
+    //       name: "Firebase",
+    //       iconifyClass: "logos-firebase",
+    //     },
+    //     {
+    //       name: "PlatsPay",
+    //       iconifyClass: "icon-park:flash-payment",
+    //     },
+    //   ],
+    // },
     {
       id: "6123",
       name: "Aheev Performance",
