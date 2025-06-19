@@ -421,9 +421,9 @@ const experience = {
         },
         {
           title: "Lead Mobile App Developer",
-          company: "Oracions",
-          company_url: "https://oracions.com/",
-          logo_path: "oracions.jpg",
+          company: "D12 Solutions",
+          company_url: "https://d12-solutions.com/",
+          logo_path: "d12.png",
           duration: "2023 - 2024",
           // location: "Remote",
           description: [
@@ -433,7 +433,7 @@ const experience = {
             `Spearheaded the development process by prioritising tasks, delegating based on team strengths, and implementing efficient workflows, resulting in a 30% improvement in project completion time and an increase in team productivity.`,
           ],
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#4ed1c2",
+          color: "#5e7f9f",
         },
         {
           title: "Mobile App Developer",
@@ -535,7 +535,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Hire Me",
-    profile_image_path: "HamzaEnhanced.png",
+    profile_image_path: "HamzaPro.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
