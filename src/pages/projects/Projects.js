@@ -55,7 +55,7 @@ function Projects(props) {
       <a
         {...styles}
         className="general-btn"
-        href="https://www.fiverr.com/users/hamzazafar_rc/"
+        href="https://www.upwork.com/freelancers/~0160281256344b7e53?mp_source=share"
       >
         Qoute Me Now
       </a>

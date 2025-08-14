@@ -11,12 +11,13 @@ const settings = {
 const greeting = {
   title: "Hello 👋.",
   title2: "Hamza",
-  logo_name: "Hamza </>",
+  logo_name: "Hamza Zafar",
   nickname: "Hamza Zafar",
   full_name: "Hamza Zafar",
   subTitle:
-    "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
-  resumeLink: "https://www.fiverr.com/users/hamzazafar_rc/",
+    "Building Scalable Apps, One Commit at a Time 🚀",
+  // resumeLink: "https://www.fiverr.com/users/hamzazafar_rc/",
+  resumeLink: "https://www.upwork.com/freelancers/~0160281256344b7e53?mp_source=share",
   mail: "mailto:hamzazafarrc@gmail.com",
 };
 
@@ -291,7 +292,7 @@ const degrees = {
       subtitle: "Bachelors in Software Engineering",
       logo_path: "KFUEIT.png",
       alt_name: "SSEC",
-      duration: "2018 - 2022",
+      duration: "",
       descriptions: [
         "⚡ My academic journey includes in-depth studies of core subjects like Data Structures, Database Management Systems (DBMS), Security, and Software Engineering.",
         "⚡ Complementing this, I've successfully completed various courses focusing on Backend, Web, and Mobile App Development",
@@ -537,7 +538,7 @@ const contactPageData = {
     title: "Hire Me",
     profile_image_path: "HamzaPro.png",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "You can contact me at the places mentioned below.\nI will try to get back to you as fast as I can. ",
   },
   blogSection: {
     title: "Blogs",

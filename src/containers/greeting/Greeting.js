@@ -38,7 +38,7 @@ export default function Greeting(props) {
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <a
-                  href="https://drive.google.com/file/d/1I651NxDv5oVLPUCitMCL5LjkPQt45CPi/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Wrlr7UD6bhy4xCcBgrdROg9PdAqPxnpL/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

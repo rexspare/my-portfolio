@@ -9,10 +9,12 @@
 
 .contact-heading-div {
   display: flex;
+  align-items: center;
 }
 
 .blog-heading-div {
   display: flex;
+  align-items: center;
 }
 
 .address-heading-div {
@@ -102,6 +104,7 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Google Sans Medium";
+  white-space: pre-line;
 }
 
 .blog-header-detail-text {
