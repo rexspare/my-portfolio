@@ -24,7 +24,7 @@ const greeting = {
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/rexspare",
-  linkedin: "https://www.linkedin.com/in/rexspare/",
+  linkedin: "https://www.linkedin.com/in/hamzazafarrc/",
   gmail: "hamzazafarrc@gmail.com",
   gitlab: "https://gitlab.com/rexspare",
   facebook: "https://www.facebook.com/harikrishan.kanani/",
@@ -544,7 +544,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
-    link: "https://www.linkedin.com/in/rexspare/",
+    link: "https://www.linkedin.com/in/hamzazafarrc/",
     avatar_image_path: "blogs_image.svg",
   },
 };
